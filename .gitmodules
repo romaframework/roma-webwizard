@@ -1,3 +1,6 @@
 [submodule "core"]
 	path = core
 	url = git@github.com:Roma-Framework/core.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:Roma-Framework/frontend.git
