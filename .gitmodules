@@ -4,3 +4,6 @@
 [submodule "frontend"]
 	path = frontend
 	url = git@github.com:Roma-Framework/frontend.git
+[submodule "persistence-datanucleus"]
+	path = persistence-datanucleus
+	url = git@github.com:Roma-Framework/persistence-datanucleus.git
