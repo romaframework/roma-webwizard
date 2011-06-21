@@ -10,3 +10,6 @@
 [submodule "project-web"]
 	path = project-web
 	url = git@github.com:Roma-Framework/project-web.git
+[submodule "view-janiculum"]
+	path = view-janiculum
+	url = git@github.com:Roma-Framework/view-janiculum.git
