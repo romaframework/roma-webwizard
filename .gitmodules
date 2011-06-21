@@ -13,3 +13,6 @@
 [submodule "view-janiculum"]
 	path = view-janiculum
 	url = git@github.com:Roma-Framework/view-janiculum.git
+[submodule "users"]
+	path = users
+	url = git@github.com:Roma-Framework/users.git
