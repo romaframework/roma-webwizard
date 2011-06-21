@@ -7,3 +7,6 @@
 [submodule "persistence-datanucleus"]
 	path = persistence-datanucleus
 	url = git@github.com:Roma-Framework/persistence-datanucleus.git
+[submodule "project-web"]
+	path = project-web
+	url = git@github.com:Roma-Framework/project-web.git
