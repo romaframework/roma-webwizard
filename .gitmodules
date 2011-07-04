@@ -1,18 +1,18 @@
 [submodule "core"]
 	path = core
-	url = git@github.com:Roma-Framework/core.git
+	url = git@github.com:romaframework/core.git
 [submodule "frontend"]
 	path = frontend
-	url = git@github.com:Roma-Framework/frontend.git
+	url = git@github.com:romaframework/frontend.git
 [submodule "persistence-datanucleus"]
 	path = persistence-datanucleus
-	url = git@github.com:Roma-Framework/persistence-datanucleus.git
+	url = git@github.com:romaframework/persistence-datanucleus.git
 [submodule "project-web"]
 	path = project-web
-	url = git@github.com:Roma-Framework/project-web.git
+	url = git@github.com:romaframework/project-web.git
 [submodule "view-janiculum"]
 	path = view-janiculum
-	url = git@github.com:Roma-Framework/view-janiculum.git
+	url = git@github.com:romaframework/view-janiculum.git
 [submodule "users"]
 	path = users
-	url = git@github.com:Roma-Framework/users.git
+	url = git@github.com:romaframework/users.git
