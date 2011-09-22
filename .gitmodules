@@ -16,3 +16,15 @@
 [submodule "users"]
 	path = users
 	url = git@github.com:romaframework/users.git
+[submodule "console"]
+	path = console
+	url = git@github.com:romaframework/console.git
+[submodule "mail"]
+	path = mail
+	url = git@github.com:romaframework/mail.git
+[submodule "wizard"]
+	path = wizard
+	url = git@github.com:romaframework/wizard.git
+[submodule "chart-jfreechart"]
+	path = chart-jfreechart
+	url = git@github.com:romaframework/chart-jfreechart.git
