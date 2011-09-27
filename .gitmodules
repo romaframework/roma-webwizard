@@ -28,3 +28,6 @@
 [submodule "chart-jfreechart"]
 	path = chart-jfreechart
 	url = git@github.com:romaframework/chart-jfreechart.git
+[submodule "reporting-jr"]
+	path = reporting-jr
+	url = git@github.com:romaframework/reporting-jr.git
