@@ -31,3 +31,6 @@
 [submodule "reporting-jr"]
 	path = reporting-jr
 	url = git@github.com:romaframework/reporting-jr.git
+[submodule "scheduler-quartz"]
+	path = scheduler-quartz
+	url = git@github.com:romaframework/scheduler-quartz.git
