@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="install" name="roma">
+	<macrodef name="iterate">
+		<attribute name="target"/>
+		<sequential>
+		<echo>                      _______</echo>                                
+		<echo>                     |_   __ \</echo>                               
+		<echo>                       | |__) |   .--.   _ .--..--.   ,--.</echo>   
+		<echo>                       |  __ /  / .'`\ \[ `.-. .-. | `'_\ :</echo>  
+		<echo>                      _| |  \ \_| \__. | | | | | | | // | |,</echo> 
+		<echo>                     |____| |___|'.__.' [___||__||__]\'-;__/</echo> 
+		<echo></echo>
+		<echo> ________                                                              __</echo>       
+		<echo>|_   __  |                                                            [  |  _</echo>   
+		<echo>  | |_ \_|_ .--.  ,--.   _ .--..--.  .---.  _   _   __   .--.   _ .--. | | / ]</echo>  
+		<echo>  |  _|  [ `/'`\]`'_\ : [ `.-. .-. |/ /__\\[ \ [ \ [  ]/ .'`\ \[ `/'`\]| '' |</echo>   
+		<echo> _| |_    | |    // | |, | | | | | || \__., \ \/\ \/ / | \__. | | |    | |`\ \</echo>  
+		<echo>|_____|  [___]   \'-;__/[___||__||__]'.__.'  \__/\__/   '.__.' [___]  [__|  \_]</echo> 
+		<subant target="@{target}">
+			<fileset dir="core" includes="build.xml" />
+		</subant>
+		<subant target="@{target}">
+			<fileset dir="frontend" includes="build.xml" />
+		</subant>
+		<subant target="@{target}">
+			<fileset dir="." includes="*/build.xml" excludes="core/build.xml frontend/build.xml demo/build.xml"/>
+		</subant>
+		</sequential>
+	</macrodef>
+	
+	<target name="clean">
+		<iterate target="clean"/>
+	</target>
+
+	<target name="clean-all">
+		<iterate target="clean-all"/>
+	</target>
+
+	<target name="publish">
+		<iterate target="publish"/>
+	</target>
+
+	<target name="compile">
+		<iterate target="publish"/>
+	</target>
+
+	<target name="javadoc">
+		<iterate target="javadoc"/>
+	</target>
+
+	<target name="install">
+		<iterate target="clean-all"/>
+		<iterate target="publish"/>
+				
+		<echo></echo>
+		<echo></echo>
+		<echo>   ___   ___  ____    _  </echo>  
+		<echo> .'   `.|_  ||_  _|  | | </echo>
+		<echo>/  .-.  \ | |_/ /    | | </echo>
+		<echo>| |   | | |  __'.    |_| </echo>
+		<echo>\  `-'  /_| |  \ \_   _  </echo>
+		<echo> `.___.'|____||____| (_) </echo>
+		<echo></echo>
+	</target>
+
+
+</project>
