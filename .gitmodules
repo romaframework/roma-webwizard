@@ -1,36 +1,36 @@
 [submodule "core"]
 	path = core
-	url = git@github.com:romaframework/core.git
+	url = git://github.com/romaframework/core.git
 [submodule "frontend"]
 	path = frontend
-	url = git@github.com:romaframework/frontend.git
+	url = git://github.com/romaframework/frontend.git
 [submodule "persistence-datanucleus"]
 	path = persistence-datanucleus
-	url = git@github.com:romaframework/persistence-datanucleus.git
+	url = git://github.com/romaframework/persistence-datanucleus.git
 [submodule "project-web"]
 	path = project-web
-	url = git@github.com:romaframework/project-web.git
+	url = git://github.com/romaframework/project-web.git
 [submodule "view-janiculum"]
 	path = view-janiculum
-	url = git@github.com:romaframework/view-janiculum.git
+	url = git://github.com/romaframework/view-janiculum.git
 [submodule "users"]
 	path = users
-	url = git@github.com:romaframework/users.git
+	url = git://github.com/romaframework/users.git
 [submodule "console"]
 	path = console
-	url = git@github.com:romaframework/console.git
+	url = git://github.com/romaframework/console.git
 [submodule "mail"]
 	path = mail
-	url = git@github.com:romaframework/mail.git
+	url = git://github.com/romaframework/mail.git
 [submodule "wizard"]
 	path = wizard
-	url = git@github.com:romaframework/wizard.git
+	url = git://github.com/romaframework/wizard.git
 [submodule "chart-jfreechart"]
 	path = chart-jfreechart
-	url = git@github.com:romaframework/chart-jfreechart.git
+	url = git://github.com/romaframework/chart-jfreechart.git
 [submodule "reporting-jr"]
 	path = reporting-jr
-	url = git@github.com:romaframework/reporting-jr.git
+	url = git://github.com/romaframework/reporting-jr.git
 [submodule "scheduler-quartz"]
 	path = scheduler-quartz
-	url = git@github.com:romaframework/scheduler-quartz.git
+	url = git://github.com/romaframework/scheduler-quartz.git
